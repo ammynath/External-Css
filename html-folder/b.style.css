@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.cardholder{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 50px 30px 10px 30px;
+    
+    
+}
+.imageholder{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-top: 20px
+}
+.imageholder img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.nameholder{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    color: black;
+}
+.stackholder{
+   font-size: 14px;
+   font-weight: bold;
+   font-family: sans-serif;
+   margin-top: 10px;
+   text-align: center; 
+}
+.bioholder{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 10px;
+    text-align: justify;
+    display: flex;
+    justify-content: justify;
+    width: 90%;
+}
+button{
+    font-size: medium;
+    background-color: gray;
+    color: white;
+    padding: 4%;
+    margin-top: 20px;
+}
